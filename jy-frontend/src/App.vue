@@ -20,7 +20,7 @@ onMounted(async () => {
 
 <template>
   <div style="text-align: center; margin-top: 50px;">
-    <h1>Vue + Spring Boot 연동 성공!</h1>
+    <h1>Vue + Spring Boot 연동 성공123!</h1>
     <div style="padding: 20px; background-color: #f0f0f0; border-radius: 10px;">
       <h3>백엔드로부터 받은 데이터:</h3>
       <p style="color: blue; font-weight: bold;">{{ serverData }}</p>
