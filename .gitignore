@@ -6,6 +6,8 @@ out/
 .idea/
 *.class
 *.jar
+demo/src/main/resources/application.properties
+
 
 # Vue 관련 (프론트엔드 폴더 이름이 jy-frontend인 경우)
 jy-frontend/node_modules/
