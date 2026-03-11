@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-// 특별한 로직이 없다면 비워두셔도 됩니다.
+// 특별한 로직이 없다면 비워두셔도 됩니다.test
 </script>
 
 <style>
