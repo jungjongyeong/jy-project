@@ -15,7 +15,7 @@ public class BoardController {
     @Autowired 
     private BoardRepository boardRepository;
 
-    // 데이터 저장: http://localhost:9090/api/add (POST 방식)
+    // 데이터 저장: http://localhost:9090/api/add (POST 방식)test
     @PostMapping("/add")
     public Board add(@RequestBody Board board) {
         return boardRepository.save(board);
