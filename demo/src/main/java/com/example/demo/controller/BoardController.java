@@ -21,7 +21,7 @@ public class BoardController {
         return boardRepository.save(board);
     }
 
-    // 전체 조회: http://localhost:9090/api/all (GET 방식)
+    // 전체 조회: http://localhost:9090/api/all (GET 방식)test
     @GetMapping("/all")
     public List<Board> getAll() {
         return boardRepository.findAll();
