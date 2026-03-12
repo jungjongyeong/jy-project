@@ -27,7 +27,8 @@ const board = ref({
 const saveBoard = async () => {
   try {
     // 어제 테스트했던 그 주소입니다!
-    const response = await axios.post('https://localhost:9090/api/add', board.value);
+    // 도메인 주소로 직접 보냅니다. (포트 번호는 생략하거나 Nginx 포트를 사용)
+    const response = await axios.post('/api/add', board.value);
     console.log('저장 성공:', response.data);
     alert('게시글이 성공적으로 저장되었습니다!');
     
